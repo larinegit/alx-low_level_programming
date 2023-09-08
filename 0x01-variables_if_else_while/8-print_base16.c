@@ -2,7 +2,7 @@
 /**
  * main - prints number between 0 to 9 and letters between a to f
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
@@ -16,6 +16,6 @@ int main(void)
 	{
 		putchar(i);
 	}
-	putchar(i);
+	putchar('\n');
 	return (0);
 }
