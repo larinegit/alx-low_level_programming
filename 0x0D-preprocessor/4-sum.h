@@ -1,7 +1,6 @@
-#include "stdio.h"
-#ifndef _4-sum.h_
-#define _4-sum.h_
+#ifndef SUM_H
+#define SUM_H
 
-#define SUM(x, y) (x) + (y)
+#define SUM(x, y) ((x) + (y))
 
 #endif
