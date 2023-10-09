@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  printf("%s\n", _FILE_);
+  char filename[100];
+  char *ptr = malloc(sizeof(filename));
+  strcpy(ptr, _FILE_);
+  free(ptr);
   return 0;
 }
