@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-int main() {
-  char filename[100];
-  char *ptr = malloc(sizeof(filename));
-  strcpy(ptr, _FILE_);
-  free(ptr);
-  return 0;
+/**
+ * main - prints the name of the file
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
 }
