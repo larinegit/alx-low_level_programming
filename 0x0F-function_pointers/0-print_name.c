@@ -10,7 +10,7 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
- printf("%s\n", name);
- return;
- f(name);
+	printf("%s\n", name);
+	return;
+	f(name);
 }
